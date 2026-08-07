@@ -20,6 +20,14 @@ int main()
         {
         cout<<"Difference: "<<a-b;
         }
+        case 3:
+        {
+        cout<<"Multiplication: "<<a*b;
+        }
+        case 4:
+        {
+        cout<<"Division: "<<a/b;
+        }
         default:
         cout<<"Invalid choice";
     }
