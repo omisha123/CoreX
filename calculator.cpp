@@ -7,6 +7,8 @@ int main(){
     cout << "Enter 2 numbers: ";
     cin >> a >> b;
 
+    cout<<"======SIMPLE CALCULATOR======\n";
+    cout<<"Select an operation:\n";
     cout << "1. Add(+)\n2. Subtract(-)\n3. Multiply(*)\n4. Divide(/)\n5. Modulus(%)\n6. Power(^)\n";
     cout << "Enter your choice: ";
     cin >> c;
