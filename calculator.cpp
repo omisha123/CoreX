@@ -7,7 +7,7 @@ int main(){
     cout << "Enter 2 numbers: ";
     cin >> a >> b;
 
-    cout << "1.Add(+)\n2. Subtract(-)\n3. Multiply(*)\n4. Divide(/)\n";
+    cout << "1.Add(+)\n2. Subtract(-)\n3. Multiply(*)\n4. Divide(/)\n5.Modulus(%)\n6. Power(^)\n";
     cout << "Enter your choice: ";
     cin >> c;
 
@@ -23,6 +23,12 @@ int main(){
             break;
         case 4:
             cout << "Result: " << a / b;
+            break;
+        case 5:
+            cout << "Result: " << a % b;
+            break;
+        case 6:
+            cout << "Result: " << pow(a, b);
             break;
         default:
             cout << "Invalid choice";
