@@ -7,7 +7,7 @@ int main(){
     cout << "Enter 2 numbers: ";
     cin >> a >> b;
 
-    cout << "1. +\n2. -\n3. *\n4. /\n";
+    cout << "1.Add(+)\n2. Subtract(-)\n3. Multiply(*)\n4. Divide(/)\n";
     cout << "Enter your choice: ";
     cin >> c;
 
